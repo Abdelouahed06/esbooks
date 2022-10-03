@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../../Image/Pic/pic4.svg);
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContactInput{
+    width: 500px;
+    height: 500px;;
+    box-shadow: 0 0 8px 0 rgb(0, 0, 0);
+    margin-top: 90px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding: 10px;
+}
+
+.ContactInput:before{
+    content: "";
+    position: absolute;
+    background: inherit;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 00 2000px rgb(225, 225, 225, .2);
+    filter: blur(1px);
+    margin: -25px;
+    z-index: -1;
+}
+
+.ContactInput input{
+    display: block;
+    background: inherit;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000000;
+    height: 40px;
+    width: 350px;
+    margin: 30px 0px 20px 60px;
+    font-size: 17px;
+}
+
+.ContactInput input:hover{
+    border-bottom: 1px solid #ff0000;
+}
+
+.ContactInput textarea{
+    height: 150px;
+    width: 350px;
+    background: inherit;
+    border: 1px solid #000000;
+    outline: none;
+    padding: 10px;
+    font-size: 17px;
+    margin-left:60px ;
+}
+
+.ContactInput textarea:hover{
+    border: 1px solid #ff0000;
+}
+
+.ContactInput input::placeholder{
+    color: #fff;
+}
+
+.ContactInput textarea::placeholder{
+    color:#fff;
+    text-align: center;
+    padding: 55px 0px 0px 0px;
+    font-size: 20px;
+}
+
+
+.ContactInput button{
+    background: inherit;
+    height: 40px;
+    width: 140px;
+    margin: 30px 0px 50px 180px;
+    outline: none;
+    font-size: 19px;
+    color: #fff;
+    background: #880000;
+}
+
+.ContactInput button:hover{
+    background: #ff0000;
+}
+

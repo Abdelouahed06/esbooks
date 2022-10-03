@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../../Image/Pic/pic4.svg);
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.LoginBody{
+    width: 450px;
+    height: 500px;
+    box-shadow: 0 0 8px 0 rgb(0, 0, 0.2);
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    text-align: center;
+    padding: 70px 0px 0px 0px;
+}
+
+.LoginBody:before{
+    content: "";
+    position: absolute;
+    background: inherit;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 00 2000px rgb(225, 225, 225, .2);
+    filter: blur(1px);
+    margin: -25px;
+    z-index: -1;
+}
+
+.LoginBody h2{
+    font-size: 32px;
+    color: #880000;
+}
+
+.LoginBody hr{
+    width: 150px;
+    margin:10px 0px 70px 150px ;
+}
+
+.LoginBody input{
+    background: inherit;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    height: 40px;
+    width: 330px;
+    display: block;
+    margin: 40px 0px 10px 60px;
+    text-align: center;
+    font-size: 20px;
+    color: #ff0000;
+    outline: none;
+}
+
+.LoginBody input:hover{
+    border-bottom: 1px solid #000000;
+}
+
+.LoginBody input::placeholder{
+    color: #f9df39;
+    font-size: 17px;
+}
+
+.LoginBody button{
+    background: inherit;
+    height: 40px;
+    width: 200px;
+    margin: 30px 0px 50px 0px;
+    outline: none;
+    font-size: 19px;
+    color: #fff;
+    background: #c10000;
+}
+
+.LoginBody a{
+    text-decoration: none;
+    color: #747474;
+    font-size: 20px;
+    padding: 0px 5px 0px 5px;
+}
+
+.LoginBody a:hover{
+    color: #ff0000;
+    
+}
+
+.LoginBody p{
+    color: #000000;
+}

@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:url(../../Image/Pic/pic4.svg) ;
+}
+
+nav{
+    margin:-80px 0px 0px 450px;
+    position: fixed;
+}
+
+ul{
+    
+    padding: 0px;
+    list-style: none;
+    color: #000;
+}
+
+ul li{
+    float: left;
+    width: 120px;
+    height: 40px;
+    box-shadow: 2px 2px 2px #000000;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul li a{
+    background: #6c2020;
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+}
+
+ul li a:hover{
+    background:#FFF;
+    color: #6c2020;
+}
+
+ul li ul li{
+    display: none;
+}
+
+ul li:hover ul li{
+    display: block;
+}
+
+section{
+    margin:120px 0px 0px 100px;
+    width: 1168px;
+    height: 450px;
+    box-shadow: 4px 4px 6px #000000;
+    background:#6c2020;
+}
+
+.HeadTitle{
+    text-align: center;
+    font-size: 22px;
+    color: #ff9c00;
+    padding-top: 20px;
+}
+
+.cover{
+    margin: 50px 0px 0px 55px;
+}
+
+.BookCover{
+    width: 150px;
+    height: 250px;
+    margin: 0px 0px 0px 20px;
+    background: #FFF;
+    display: inline-block;
+    position: relative;
+    box-shadow:2px 2px 6px #000;
+}
+
+.image {
+    display: block;
+    width: 150px;
+    height: 250px;
+}
+  
+.BookCover2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 250px;
+    width: 150px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ff9c00;
+}
+  
+.BookCover:hover .BookCover2 {
+    opacity: .7;
+}
+  
+.Text1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.FooterTitle{
+    text-align: center;
+    color: #af7c29;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.FooterTitle a{
+    text-decoration: none;
+    color: #af7c29;
+}
+
+.FooterTitle a:hover{
+    color: #ff9c00;
+}
+
+.FooterTitle span{
+    color: #FFF;
+}
+
+footer{
+    width:100%;
+    height: 50px;
+    background: #6c2020;
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+    margin:75px 0px 0px 0px ;
+    color: #fff;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffae00;
+}
+
+footer a:hover{
+    color: #c92424;
+}
+
